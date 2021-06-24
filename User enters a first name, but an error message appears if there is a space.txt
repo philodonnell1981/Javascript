@@ -1,0 +1,8 @@
+var name = prompt("Enter a first name: ");
+var numChars = name.length;
+for (var i = 0; i < numChars; i++) {
+  if(name.slice(i, i + 1) === " ") {
+  alert("No spaces allowed");
+  break;
+  }
+}
