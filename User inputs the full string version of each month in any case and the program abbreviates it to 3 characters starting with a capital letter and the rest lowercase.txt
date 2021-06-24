@@ -1,0 +1,12 @@
+var months = [];
+for (var i = 0; i < 12; i++) {
+  months[i] = prompt("Enter the full string version in lowercase of month number " + (i + 1));
+  var firstChar = [];
+  firstChar[i] = months[i].slice(0, 1);
+  firstChar[i] = firstChar[i].toUpperCase();
+  var restOfChars = [];
+  restOfChars[i] = months[i].slice(1, 3);
+  var fullAbbrev = [];
+  fullAbbrev[i] = firstChar[i] + restOfChars[i];
+  alert(fullAbbrev[i]);
+}
