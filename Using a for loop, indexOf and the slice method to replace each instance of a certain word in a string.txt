@@ -1,0 +1,14 @@
+var text = "Rafael Benitez is set to be appointed as Everton's new manager next week after 
+the former Liverpool boss agreed key aspects of his contract with the club.  
+Benitez is expected to sign his new deal in the next few days, with Everton hoping to 
+confirm his arrival early next week.  The 61-year-old will become the Toffees' fifth 
+permanent manager in as many years and will replace Carlo Ancelotti, who left Goodison 
+Park to return to Real Madrid earlier this month."
+
+for (var i = 0; i < text.length; i++) {
+  indexNum = text.indexOf("Benitez");
+  if (indexNum !== -1) {
+  text = text.slice(0, indexNum) + "Nadal" + text.slice(indexNum + 7);
+  }
+}
+alert(text);
