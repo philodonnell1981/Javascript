@@ -1,0 +1,4 @@
+var speech = "Learning new skills is fun.  The more skills I learn, then more I love it!"
+
+var newText = speech.replace(/skills/g, "techniques");
+alert(newText);
