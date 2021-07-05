@@ -1,0 +1,2 @@
+var shake = "To be or not to be";
+alert(shake.replace(/be/g, "succeed"));
