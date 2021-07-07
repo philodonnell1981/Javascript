@@ -1,0 +1,4 @@
+var bigDecimal = Math.random();
+var improvedNum = (bigDecimal * 6) + 1;
+var numberOfDice = Math.floor(improvedNum);
+alert(numberOfDice);
